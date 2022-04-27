@@ -3,7 +3,7 @@ import UserInfo from "../Library/UserInfo";
 import Cookies from "universal-cookie";
 import HomeNavbar from "./Navbar/home.navbar";
 import Axios from "axios";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 
 const Home = () => {

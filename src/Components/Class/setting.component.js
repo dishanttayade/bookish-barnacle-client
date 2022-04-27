@@ -4,7 +4,7 @@ import Cookies from "universal-cookie";
 import UserInfo from "../../Library/UserInfo";
 import ClassNavbar from "../Navbar/class.navbar";
 import InfoById from "../../Library/InfoById";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const ClassSetting = (params) => {
     const [classInfo, setClassInfo] = useState({});

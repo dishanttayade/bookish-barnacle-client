@@ -4,7 +4,7 @@ import Cookies from "universal-cookie";
 import UserInfo from "../../Library/UserInfo";
 import DefaultProfile from "../../Icons/profile.png";
 import {NavLink} from "react-router-dom"
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const ClassNavbar = ({classInfo}) => {
     const [userInfo, setUserInfo] = useState('');

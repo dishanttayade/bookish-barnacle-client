@@ -5,7 +5,7 @@ import moment from "moment";
 import InfoById from "../../Library/InfoById";
 import UserInfo from "../../Library/UserInfo";
 import Cookies from "universal-cookie";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const LongAnswer = (params) => {
     const [answered, setAnswered] = useState(false);

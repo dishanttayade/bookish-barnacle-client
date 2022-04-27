@@ -5,7 +5,7 @@ import UserInfo from '../../Library/UserInfo';
 import {NavLink} from "react-router-dom";
 import Axios from "axios";
 
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const HomeNavbar = () => {
     const [Profile, setProfile] = useState(null);

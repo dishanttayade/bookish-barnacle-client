@@ -5,7 +5,7 @@ import InfoById from '../../Library/InfoById';
 import UserInfo from '../../Library/UserInfo';
 import ClassNavbar from '../Navbar/class.navbar';
 import DefaultProfile from "../../Icons/profile.png";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 Object.size = function(obj) {
     var size = 0, key;

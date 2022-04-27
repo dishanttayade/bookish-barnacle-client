@@ -5,7 +5,7 @@ import UserInfo from "../../Library/UserInfo";
 import ClassNavbar from "../Navbar/class.navbar";
 import moment from "moment";
 import InfoById from "../../Library/InfoById";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const Checkbox = (params) => {
     const [answered, setAnswered] = useState(false);

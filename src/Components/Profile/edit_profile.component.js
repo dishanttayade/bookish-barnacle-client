@@ -4,7 +4,7 @@ import Cookies from 'universal-cookie';
 import UserInfo from '../../Library/UserInfo';
 import HomeNavbar from '../Navbar/home.navbar';
 
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 
 const EditProfile = () => {
     const [inputUsername, setInputUsername] = useState('');

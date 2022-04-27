@@ -1,5 +1,5 @@
 import Axios from "axios";
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 const SECURITY_KEY = process.env.REACT_APP_SECURITY_KEY;
 
 const UserInfo = async (token) => {

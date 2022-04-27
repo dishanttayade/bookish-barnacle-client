@@ -6,7 +6,7 @@ import DefaultProfilePicture from "../../Icons/profile.png";
 import Axios from "axios";
 import { NavLink } from "react-router-dom";
 
-const URL = process.env.REACT_APP_BACKEND_URL;
+const URL = "https://classroom-app-group19.herokuapp.com";
 const Profile = () => {
     const [userInfo, setUserInfo] = useState('');
     const [profile, setProfile] = useState(null);
